@@ -1,0 +1,10 @@
+.env
+*.env.*
+
+dist/
+build/
+out/
+
+.vscode/
+.idea/
+.DS_Store
