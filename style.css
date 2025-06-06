@@ -1,3 +1,26 @@
 :root{
 	--echo-bg-color:rgb(255, 255, 255);
 }
+
+html {
+    font-size: 10px; /* 1rem = 10px */
+}
+
+body .kb-echo *{
+	font-size: 1.4rem;
+}
+
+@media (max-width:768px){
+	body .kb-echo *{
+    	font-size: 1.2rem;
+    }
+}
+
+body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody td .kb-calendar-cell{
+    padding: 0;
+}
+
+body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody td .kb-calendar-cell .kb-calendar-cell-guide{
+    position: static;
+    padding: .2rem .5rem;
+}
