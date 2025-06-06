@@ -50,11 +50,17 @@ body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar thead 
 body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody td:after{
 	content:'';
 	border-left:1px solid var(--main-shadow-color);
-	border-bottom: 1px solid var(--main-shadow-color);
 	height: 100%;
 	top: 0;
-	width: 100%;
-	z-index: 1;
+}
+
+body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody td:before {
+    content: "";
+    border-bottom: 1px solid var(--main-shadow-color);
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
 }
 
 body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody td:first-child:after {
