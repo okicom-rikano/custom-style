@@ -27,6 +27,35 @@ body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main{
 	border-bottom: 1px solid var(--main-shadow-color);
 }
 
+body .kb-echo .kb-echo-main .kb-echo-header .kb-echo-header-info {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.kb-icon.kb-icon-arrow:after {
+    height: 0.6em;
+    width: 0.6em;
+}
+
+body .kb-echo .kb-echo-main .kb-echo-header .kb-echo-header-action .kb-echo-header-filter span.kb-echo-header-filter-monitor {
+    font-size: 20px;
+    padding: 0 1.25rem !important;
+}
+
+body .kb-echo .kb-echo-main header.kb-echo-header:has(.kb-echo-header-action) {
+    padding: 0px 2rem;
+}
+
+body .kb-echo .kb-echo-main header.kb-echo-header:has(.kb-echo-header-info) {
+    padding: 8px 2.5rem 0px;
+}
+
+body .kb-echo .kb-echo-main .kb-echo-header .kb-echo-header-action .kb-echo-header-filter {
+    display: flex;
+    align-items: center;
+}
+
 body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar :is(td,th){
 	background-color: var(--echo-body-bg-color);
 }
@@ -65,4 +94,11 @@ body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody 
 
 body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody td:first-child:after {
 	border-left: none;
+}
+
+body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody td .kb-calendar-cell .kb-calendar-cell-item .kb-field .kb-field-value span.kb-guide {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
