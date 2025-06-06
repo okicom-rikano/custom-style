@@ -8,3 +8,6 @@ out/
 .vscode/
 .idea/
 .DS_Store
+
+*.html
+note.css
