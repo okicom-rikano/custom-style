@@ -117,38 +117,3 @@ span.kb-guide {
     background-color: #fff;
     transition: background-color 0.2s ease;
 }
-
-/* detail */
-.kb-dialog > div {
-    background-color: #fff !important;
-    border-radius: 32px !important;
-    width: 50% !important;
-    height: 70% !important;
-    min-width: 500px;
-    min-height: 460px;
-}
-
-body .kb-injector {
-    background-color: #fff;
-}
-
-body .kb-injector .kb-injector-main .kb-injector-header {
-    display: none;
-}
-
-body .kb-injector {
-    height: 96% !important;
-    min-height: 96%;
-}
-
-.kb-dialog > div > img {
-    /* padding-right: 0rem !important; */
-    margin-right: 1em !important;
-    width: 2em !important;
-    height: 2em !important;
-    /* margin-top: 0 !important; */
-}
-
-.kb-dialog > div > div:nth-child(2) {
-    box-shadow: initial !important;
-}
