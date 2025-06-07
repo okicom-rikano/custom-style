@@ -102,3 +102,18 @@ body .kb-echo .kb-echo-main .kb-echo-body .kb-echo-body-main .kb-calendar tbody 
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+/* item */
+.kb-field {
+    padding: 0.1em 0;
+}
+
+.kb-scope.kb-calendar-cell-item:hover span.kb-guide {
+    filter: brightness(85%);
+}
+
+span.kb-guide {
+    border-radius: 6px;
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+}
