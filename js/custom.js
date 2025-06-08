@@ -19,7 +19,7 @@
 
         document.querySelectorAll('.kb-guide').forEach(elem => {
             // 元のテキストを「日時, カテゴリ, タイトル」に分割
-            const [dateStr, category, title] = elem.textContent.split(',').map(s => s.trim());
+            const [dateStr, color, title] = elem.textContent.split(',').map(s => s.trim());
         
             // 日時（ISO文字列）をDateに変換
             const date = new Date(dateStr);
@@ -34,8 +34,8 @@
             // 要素のテキストを「午前/午後 時:分 タイトル」に置き換え
             elem.textContent = `${time} ${title}`;
         
-            // カテゴリに対応するクラスを追加（例: category-会議）
-            const className = `category-${category}`;
+            // カテゴリに対応するクラスを追加
+            const className = `bg-${color}`;
             elem.classList.add(className);
         });
 

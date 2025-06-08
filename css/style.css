@@ -117,3 +117,23 @@ span.kb-guide {
     background-color: #fff;
     transition: background-color 0.2s ease;
 }
+
+/* 日程 */
+span.kb-guide.bg-yellow {
+    background-color: #FFECB3;
+}
+span.kb-guide.bg-green {
+    background-color: #C5E1A5;
+}
+span.kb-guide.bg-blue {
+    background-color: #4FC3F7;
+}
+span.kb-guide.bg-cyan {
+    background-color: #4DD0E1;
+}
+span.kb-guide.bg-purple {
+    background-color: #D1C4E9;
+}
+span.kb-guide.bg-gray {
+    background-color: #CFD8DC;
+}
